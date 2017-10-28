@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.intro {
+	height: 100%;
+	width: 100;
+	display: flex;
+	background: url("img/backimg.png") no-repeat 50% 50%;
+	background-size: cover;
+	justify-content: center;
+}
+
+.primero{
+	display: flex;
+	text-align: center;
+}
+
+.content h1{
+	color: #ffffff;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 400%;
+}
+
+/* btn del form*/
+
+.btn2{
+	margin-left: -6px;
+	border-radius: 0px 4px 4px 0px;
+	background: rgba(0, 0, 0, 0);
+	color: #EEEEEE;
+	padding: 10px;
+	border: solid #EEEEEE 2px;
+	text-decoration: none;
+}
+
+.btn2:hover {
+	background: #EEEEEE;
+	transition: background-color .5s;
+	border: solid #EEEEEE 2px;
+	color: #E090E5;
+	font-weight: bolder;
+}
+
+#emailAddress{
+	border-radius: 4px 0px 0px 4px;
+	background: rgba(0, 0, 0, 0);
+	color: #EEEEEE;
+	padding: 10px;
+	border: solid #EEEEEE 2px;
+}
+
+#emailAddress::placeholder{
+	font-family: 'Raleway', sans-serif;
+	color: #EEEEEE;
+}
+
+/* btn inicial*/
+
+.segundo{
+	padding-top: 70%;
+}
+
+.btn1{
+	border-radius: 3px;
+	color: #EEEEEE;
+	padding: 10px;
+	border: solid #EEEEEE 2px;
+	text-decoration: none;
+	justify-content: center;
+}
+
+.btn1:hover {
+	color: #E090E5;
+	border: solid #E090E5 2px;
+}
+
+.texto {
+	padding: 10px;
+}
+
+p {
+	text-align: center;
+	font-style: italic;
+	color: #E090E5;
+	font-size: 80%;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	color: #E090E5;;
+}
+
+/* tablets */
+
+@media screen and (max-width: 800px) {
+	.content h1{
+		font-size: 300%;
+	}
+}
